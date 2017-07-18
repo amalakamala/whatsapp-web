@@ -1,0 +1,156 @@
+body{
+    background-color: #D7D7D7;	
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+/*---------- HEADER ----------*/
+.navbar-default {
+    background-color: #0C8475;
+    border-color: transparent;
+    padding: 50px 0;
+}
+
+/*---------- Contenido ----------*/
+.caja{
+	background-color: #EAEAEA;
+	position: relative;
+	bottom: 80px;	
+}
+
+.fa{
+	color: #7F7F7F;
+}
+
+.img-icon-gian{
+	border-radius: 50%;
+	margin: 5px;
+	width: 50px;
+}
+
+.icon-me{
+    padding-top: 15px;
+	text-align: right;
+}
+
+.me-whatsapp{
+	border-right: 1px solid #ccc;	
+	border-bottom: 1px solid #ccc;	
+}
+
+.fondo-chat{
+	background-color: #FEFEFE;
+	border-bottom: 1px solid #ccc;
+}
+
+.input-buscar{
+	margin: 10px 0;
+}
+
+.input-buscar input{
+	width: 100%;
+}
+
+#buscar::placeholder{
+	padding-left: 20px;
+	font-size: 12px;
+	color: #7F7F7F;
+}
+
+.img-icon-lab{
+	border-radius: 50%;
+	width: 50px;	
+	height: 50pX;
+	margin: 5px;
+}
+
+.text-chat h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.name-des p{
+	font-size: 10px;
+	color: #7F7F7F;
+}
+
+.text-hora p{
+    margin-top: 15px;	
+	font-size: 10px;
+	color: #7F7F7F;	
+	text-align: right;	
+}
+
+
+/*--------- MENSAJES -----------*/
+
+.caja-chat-h{
+	border-bottom: 1px solid #ccc;	
+}
+
+.img-fondo-chat{
+	background-image: url(../img/chat-panel-bg.png);
+	width: 104%;
+	height: 560px;
+	margin-right: -30px;
+	padding: 20px;	
+}
+
+.caja-input-chat{
+	background-color: #EAEAEA;
+	padding-top: 15px;
+}
+
+#chateo{
+	width: 100%;
+	border: none;
+	padding: 2px 0;
+}
+
+#chateo::placeholder{
+	padding-left: 20px;
+	font-size: 12px;
+	color: #7F7F7F;
+}
+
+.emoticons,.microfono{
+	text-align:center;
+}
+
+#el-chat{
+	overflow: scroll;
+}
+
+
+.text-chat-post{
+	text-align: right;
+	position: relative;
+}
+
+.caja-verde{
+	background-color: #D4F5B8;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin: 5px 0;
+    text-align: right;		
+}
+
+.span-nombre{
+	color: #EF5759;
+	font-size: 10px;
+}
+
+.caja-blanca{
+	background-color: #FFF;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin: 5px 0;
+    text-align: left;		
+}
+
+.caja-verde p{
+	margin: 0;
+}
+
